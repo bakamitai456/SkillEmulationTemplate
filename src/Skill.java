@@ -127,4 +127,12 @@ public class Skill {
         this.skillId = skillId;
     }
     
+//    This function will return remaining point.
+//    If remaining points aren't enough for upgrade skill.
+//    It will upgrade the base skill before.
+    public static int upSkillPoint();
+    
+//    This function will return a point from downgrade skill.
+    public static int downSkillPoint();
+    
 }
